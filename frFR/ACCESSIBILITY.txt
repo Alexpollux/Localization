@@ -40,6 +40,9 @@ ACCESSIBILITY_GLOBAL_SECRET	Secret de {0}	0=secret class e.g. {Mage} secret
 ACCESSIBILITY_GLOBAL_GAME_SPEED	Vitesse de jeu {0}	0=current game speed
 ACCESSIBILITY_GLOBAL_GAME_SPEED_CANNOT_ADJUST_VS_PLAYERS	Vous ne pouvez pas ajuster la vitesse de jeu lorsque vous jouez contre des adversaires humains	
 ACCESSIBILITY_GLOBAL_NEW_HEARTHSTONE_ACCESS_VERSION_AVAILABLE	Une nouvelle version de Hearthstone Access est disponible. Veuillez réexécuter le patch chaque fois que cela est possible car il peut contenir des corrections de bugs	
+ACCESSIBILITY_GLOBAL_CANNOT_DO_THAT	Vous ne pouvez pas faire ça	
+ACCESSIBILITY_GLOBAL_SWITCH_FORMAT	Changer de format   Utilisé comme option de menu pour basculer entre standard, sauvage et classique 
+ACCESSIBILITY_GLOBAL_CHOOSE_FORMAT	Choisissez un format Utilisé comme titre de menu pour choisir entre standard, sauvage ou classique  
 
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_ON	Accessibilité activé	Read when F8 is pressed and accessibility is turned on
 ACCESSIBILITY_GLOBAL_ACCESSIBILITY_OFF	Accessibilité desactivé 	Read when F8 is pressed and accessibility is turned off
@@ -61,6 +64,7 @@ ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_9	Neuvième
 ACCESSIBILITY_FORMATTING_ORDINAL_NUMBER_10	Dixième	
 
 ACCESSIBILITY_INPUT_COMMAND_WITH_MODIFIER_FORMAT	Shift + {0}	0=key e.g. Shift + F
+ACCESSIBILITY_INPUT_COMMAND_WITH_CTRL_FORMAT	Ctrl + {0}	0=key e.g. Ctrl + F 
 
 ACCESSIBILITY_READ_CARD_COST	{0} mana	0=card cost
 ACCESSIBILITY_READ_CARD_ATK_HEALTH	{0} {1}	0=attack 1=health e.g. 3 2
@@ -455,8 +459,12 @@ ACCESSIBILITY_UI_REWARDS_TRACK_CLAIM_REWARDS_NO_REWARDS	Vous avez déja réclam�
 ACCESSIBILITY_UI_SHOP_READ_GOLD	Lire or	
 ACCESSIBILITY_UI_SHOP_BUY_PACKS	Acheter paquet	
 ACCESSIBILITY_UI_SHOP_BUY_MINI_SETS	Acheter Mini-sets	
+ACCESSIBILITY_UI_SHOP_BUY_HERO_SKINS	Acheter des peaux de héros	
+ACCESSIBILITY_UI_SHOP_BUY_BUNDLES	Acheter des lots	
+ACCESSIBILITY_UI_SHOP_BUY_OTHERS	Acheter autres	
 ACCESSIBILITY_UI_SHOP_ITEM_READ_DESCRIPTION	Lire description	
 ACCESSIBILITY_UI_SHOP_ITEM_BUY_FOR_N_GOLD	Acheter pour {0} or	0=amount e.g. Buy for {100} gold
+ACCESSIBILITY_UI_SHOP_ITEM_GET_FOR_FREE	Obtenir gratuitement	Some items in the shop are free 
 ACCESSIBILITY_UI_SHOP_READ_CARDS	Lire cartes	
 ACCESSIBILITY_UI_SHOP_READ_CARDS_HELP	Utilisez les flèches pour lire les cartes	
 ACCESSIBILITY_UI_SHOP_PURCHASE_COMPLETE_GOLD_REMAINING	{0} or restant	0=amount e.g. {150} gold remaining
@@ -501,9 +509,31 @@ ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION	Voir le d
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_MENU_SEE_DECK_OPTION_EMPTY_DECK	Votre deck est vide	
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_CARDS_IN_DECK	Vous avez {0} cartes sur {1} dans le deck	0=number of cards in deck 1=max number of cards in deck e.g. {10} of {30} cards in deck
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_HELP	Utilisez les flèches pour lire les cartes. Utilisez {0} pour sauter les classes.	0=Tab key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COLLECTION_FILTERS_HELP	Utilisez les touches numériques pour filtrer vos cartes par mana. Utilisez {0} pour rechercher votre collection.	0=ctrl+f
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_COINS_HELP	Utilisez les flèches et {0} pour lire toutes les pièces disponibles.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_CARD_BACKS_HELP	Utilisez les fléches et {0} pour lire tous les dos de cartes disponibles.	0=Enter key
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_READ_HERO_SKINS_HELP	Utilisez les fléches et {0} pour lire toutes les peaux de héros disponibles.	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_ADD_CARD_HELP	Utilisez {0} pour ajouter des cartes dans votre deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_REMOVE_CARD_HELP	Utilisez {0} pour enlever des cartes de votres deck	0=Enter key
 ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_EDIT_DECK_RENAME_DECK_PROMPT	Entrez un nouveau nom pour votre deck	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_SEARCH_PROMPT	Saisissez un terme de recherche	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_ON	{0} filtre de mana activé {0} filtre de cristal de mana e.g. {7+} mana filter on
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_MANA_FILTER_OFF	Filtre de mana désactivé	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CHANGE_SET	Changer l'ensemble	Used for changing between standard cards, wild cards, united in stormwind, etc.
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_HERO_SKIN_SET	Ensemble de peaux de héros préférés	Spoken after setting a new favorite Hero Skin
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_CARD_BACK_SET	Ensemble de dos de carte préférés	Spoken after setting a new favorite Card Back
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_FAVORITE_COIN_SET Ensemble de pièces préférées	Spoken after setting a new favorite Coin
+
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARDS	Fabriquer cartes	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_DUST	Lire la poussière des arcanes	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_MASS_DISENCHANT_FOR_N_DUST	Désenchanter {0} extra |4(carte,cartes) pour {1} Poussière des Arcanes	0=number of extra cards 1=amount of dust e.g. Disenchant 5 extra cards for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_READ_FLAVOR	Lire la saveur	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_FOR_N_DUST	Fabriquer pour {0} Poussière des Arcanes	0=amount of dust e.g. Craft for {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_CARD_FOR_N_DUST	Désenchanter pour {0} Poussière des Arcanes	0=amount of dust e.g. Disenchant to gain {100} Arcane Dust
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_NOT_ENOUGH_DUST	Pas assez de Poussière des Arcanes	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_ERROR_CARD_LIMIT_REACHED	Vous ne pouvez plus fabriquer d'exemplaires de cette carte	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_CRAFT_CARD_DONE	Carte fabriquée	
+ACCESSIBILITY_SCREEN_COLLECTION_MANAGER_CRAFTING_DISENCHANT_DONE	Désanchantée
 
 ACCESSIBILITY_SCREEN_PACK_OPENING_OPEN_CARDS_HELP	Utilisez les flèches et {0} pour réveler vos cartes	0=Enter key
 ACCESSIBILITY_SCREEN_PACK_OPENING_NO_CARD_PACKS	Vous n'avez aucun paquets de cartes	
